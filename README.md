@@ -42,6 +42,16 @@ A WebSocket Lark assistant powered by Claude that actually gets work done.
 
 `Python` · `Claude API` · `Lark/Feishu API` · `OAuth` · `WebSocket`
 
+### 📧→💬 [email-to-whatsapp-bot](https://github.com/almanjulhijan/email-to-whatsapp-bot)
+Bridges email alerts into WhatsApp groups so the right people see them *in seconds* — built to push site safety/PPE alerts from an email-based analytics system straight to the ops team.
+
+- 📥 **IMAP inbox polling** — works with Gmail, Outlook, Yahoo, Zoho, or any IMAP server.
+- 🎯 **Flexible filtering & subject-based routing** — one bot fans out to many groups; the subject decides the destination.
+- 🖼️ **Forwards image attachments** as WhatsApp photos, with clean formatting (strips signatures, adds a tidy header + timestamp).
+- 🐳 **Docker-ready & self-healing** — bundles headless Chromium, one command to deploy, auto-restarts on any cheap VPS for 24/7 uptime.
+
+`Node.js` · `whatsapp-web.js` · `IMAP` · `Docker` · `MIT licensed`
+
 ### 🏃 [fitness-coach](https://github.com/almanjulhijan/fitness-coach) — *Strava Training Coach*
 A personal AI training coach that connects to Strava and reasons over your real workouts.
 
@@ -57,14 +67,16 @@ A personal AI training coach that connects to Strava and reasons over your real 
 ## 🧰 Toolbox
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![LLM Agents](https://img.shields.io/badge/LLM_Agents-5A3FD0?style=flat-square&logo=openai&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST_APIs-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![OAuth](https://img.shields.io/badge/OAuth_2.0-EB5424?style=flat-square&logo=auth0&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Product:** PRDs & specs · user research · scoping & prioritization · rapid prototyping · shipping to real users
-**Build:** Python · Claude / LLM tool-use · prompt engineering · third-party API integration (Lark, Strava, Discord) · webhooks & deploy
+**Build:** Python · Node.js · Claude / LLM tool-use · prompt engineering · third-party API integration (Lark, Strava, WhatsApp, Discord) · Docker & VPS deploy
 
 ---
 
